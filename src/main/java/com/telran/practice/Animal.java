@@ -42,4 +42,8 @@ public class Animal {
                 ", isHungry=" + isHungry +
                 '}';
     }
+
+    public String getName() {
+        return this.name;
+    }
 }

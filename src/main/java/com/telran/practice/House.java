@@ -17,7 +17,7 @@ public class House {
         Human human = new Human("Mark");
         human.feedCat(tom);
 
-        Dog dog = new Dog("Pes", )
+        Dog dog = new Dog("Pes");
     }
 
 
