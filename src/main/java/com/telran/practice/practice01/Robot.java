@@ -1,4 +1,4 @@
-package com.telran.practice;
+package com.telran.practice.practice01;
 
 public class Robot {
 
