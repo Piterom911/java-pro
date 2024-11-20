@@ -1,8 +1,11 @@
-package com.telran.practice.practice01;
+package com.telran.practice.practice01.creatures;
 
-public class Robot {
 
-    private String name;
+import com.telran.practice.practice01.skills.CatchingSkills;
+import com.telran.practice.practice01.skills.Walkable;
+
+public class Robot extends Creature implements Walkable, CatchingSkills {
+
     private String description;
     private int version;
     private static int totalRobotCount = 0;
@@ -10,10 +13,15 @@ public class Robot {
     private static final int ROBOT_DEFAULT_VERSION = 1;
 
     public Robot(String name, String description) {
-        this.name = name;
+        super(name);
         this.description = description;
         this.version = ROBOT_DEFAULT_VERSION;
         totalRobotCount++;
+    }
+
+    @Override
+    public void sayHello() {
+        System.out.println("Hello! I'm robot. My name is " + getName());
     }
 
     public void printCurrentRobotInfo() {
@@ -27,9 +35,20 @@ public class Robot {
     @Override
     public String toString() {
         return "Robot{" +
-                "name='" + name + '\'' +
+                "name='" + getName() + '\'' +
                 ", description='" + description + '\'' +
                 ", version=" + version +
                 '}';
+    }
+
+    @Override
+    public void walk(Animal animal) {
+        System.out.println(getName() + " walks with " + animal.getName());
+        animal.setHungry(true);
+    }
+
+    @Override
+    public void catchMouse() {
+        System.out.println("Robot " + getName() + " caught a mouse");
     }
 }

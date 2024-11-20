@@ -1,4 +1,4 @@
-package com.telran.practice.summery05;
+package com.telran.summary.summary05;
 
 public abstract class Librarian implements Printer {
 

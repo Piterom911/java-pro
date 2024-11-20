@@ -1,4 +1,4 @@
-package com.telran.practice.practice01;
+package com.telran.practice.practice00;
 
 public class Dog extends Animal {
 
