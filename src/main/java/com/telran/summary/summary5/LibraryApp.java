@@ -1,4 +1,4 @@
-package com.telran.summary.summary05;
+package com.telran.summary.summary5;
 
 import java.util.Scanner;
 
