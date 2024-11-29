@@ -1,7 +1,6 @@
-package com.telran.summary.sammary7;
+package com.telran.summary.summary7;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class ArrayListTaskExample {

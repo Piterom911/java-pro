@@ -1,4 +1,4 @@
-package com.telran.summary.sammary7.storage;
+package com.telran.summary.summary7.storage;
 
 import java.util.ArrayList;
 import java.util.List;

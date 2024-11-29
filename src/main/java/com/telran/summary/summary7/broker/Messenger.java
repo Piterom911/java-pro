@@ -1,4 +1,4 @@
-package com.telran.summary.sammary7.broker;
+package com.telran.summary.summary7.broker;
 
 import java.util.ArrayList;
 import java.util.List;
