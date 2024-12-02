@@ -1,4 +1,4 @@
-package com.telran.algorithm.homeworks;
+package com.telran.algorithm.homeworks.hw02;
 
 import java.util.Arrays;
 
