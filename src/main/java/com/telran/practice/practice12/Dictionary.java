@@ -22,7 +22,7 @@ public class Dictionary {
             dictionary.put(word, ++count);
         }
 
-        // IMPORTANT: a very dubious solution to the task 🫣❓❔
+        // NOTE: a very dubious solution to the task 🫣❓❔
         List<Map.Entry<String, Integer>> entries = new ArrayList<>(dictionary.entrySet()); // O(n)
         entries.sort((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue())); // O(n * log n)
 
