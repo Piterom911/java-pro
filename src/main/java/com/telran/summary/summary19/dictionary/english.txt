@@ -3,3 +3,4 @@
 цветок:flower
 город:city
 дверь:door
+Привет:Hello
