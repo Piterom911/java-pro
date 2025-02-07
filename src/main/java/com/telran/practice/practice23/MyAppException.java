@@ -1,4 +1,4 @@
-package com.telran.practice.practce23;
+package com.telran.practice.practice23;
 
 public class MyAppException extends Exception {
 
